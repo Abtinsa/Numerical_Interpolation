@@ -60,7 +60,7 @@ true_val = log(x_interp);
 fprintf('Lagrange: %.6f\n', y_lagrange);
 fprintf('Newton:   %.6f\n', y_newton);
 fprintf('True ln(1.8): %.6f\n', true_val);
-
+```
 📈 **Output Sample**
 
 
@@ -73,7 +73,7 @@ True ln(1.8000):                     0.587787
 
 Lagrange Relative Error: 0.001725
 Newton   Relative Error: 0.001725
-
+```
 
 📐 **Relative Error Calculation (from main.m)**
 error_lagrange = abs((true_val - y_lagrange) / true_val);
